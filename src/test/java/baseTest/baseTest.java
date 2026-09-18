@@ -15,7 +15,7 @@ public class baseTest {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected Properties props;
-    ;
+
 
     @Before
     public void setUp() throws IOException {
@@ -24,6 +24,7 @@ public class baseTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         props = new Properties();
         props.load(new FileInputStream("src/test/resources/config.properties"));
+        driver.get("https://qaplayground.com/bank/login");
 
     }
 

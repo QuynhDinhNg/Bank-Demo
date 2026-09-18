@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d35bf340-af41-497b-b071-8c503ba168a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/login/loginSucess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/login/loginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/login/loginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTest/baseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTest/baseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/login/loginSucess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,71 +26,76 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.342967841939375E-8" />
-      <entry key="MS500" value="0.026644840367748637" />
-      <entry key="S2" value="0.40402038733969187" />
-      <entry key="S5" value="0.6959231959181584" />
-      <entry key="S10" value="0.8342231626574163" />
-      <entry key="S30" value="0.9966400059877748" />
-      <entry key="S60" value="1.8073454218620246" />
-      <entry key="M2" value="4.636886352766052" />
-      <entry key="M5" value="11.246339638724095" />
-      <entry key="M10" value="19.31500990139636" />
-      <entry key="M15" value="26.015970389592535" />
-      <entry key="M30" value="39.04737579146938" />
-      <entry key="H1" value="50.25779441983493" />
-      <entry key="H2" value="57.773304645657305" />
-      <entry key="H4" value="62.14772558805397" />
-      <entry key="D1" value="66.240281605319" />
-      <entry key="W1" value="72.365758150701" />
+      <entry key="MS100" value="1.0010269274714287" />
+      <entry key="MS500" value="1.659235461405826" />
+      <entry key="S2" value="4.227385383637669" />
+      <entry key="S5" value="5.653164708873529" />
+      <entry key="S10" value="6.28538847830319" />
+      <entry key="S30" value="7.033119007772713" />
+      <entry key="S60" value="7.74693232492993" />
+      <entry key="M2" value="8.636303626305878" />
+      <entry key="M5" value="10.457698165638387" />
+      <entry key="M10" value="12.820300028176614" />
+      <entry key="M15" value="14.646001397044184" />
+      <entry key="M30" value="17.99736384374776" />
+      <entry key="H1" value="21.4813766333255" />
+      <entry key="H2" value="33.998377425488954" />
+      <entry key="H4" value="75.35439480986507" />
+      <entry key="D1" value="261.1007395668586" />
+      <entry key="W1" value="362.81211096399255" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000007" />
-      <entry key="S5" value="1.0000008499025428" />
-      <entry key="S10" value="1.0009226787674483" />
-      <entry key="S30" value="1.12063137216344" />
-      <entry key="S60" value="1.7798102552810242" />
-      <entry key="M2" value="4.042133338126209" />
-      <entry key="M5" value="10.191999484789607" />
-      <entry key="M10" value="17.113481100524407" />
-      <entry key="M15" value="21.606631932500584" />
-      <entry key="M30" value="28.56853329954223" />
-      <entry key="H1" value="33.541258866577806" />
-      <entry key="H2" value="36.55434361503013" />
-      <entry key="H4" value="38.218677572754636" />
-      <entry key="D1" value="39.694580939580916" />
-      <entry key="W1" value="39.95615420726057" />
+      <entry key="MS100" value="9.245530587203845E-212" />
+      <entry key="MS500" value="6.2114452761431656E-43" />
+      <entry key="S2" value="2.981619717110323E-11" />
+      <entry key="S5" value="8.246306189603315E-5" />
+      <entry key="S10" value="0.013798973448806396" />
+      <entry key="S30" value="0.47929064045569025" />
+      <entry key="S60" value="1.1933664649828248" />
+      <entry key="M2" value="1.9543055049527995" />
+      <entry key="M5" value="3.6120710347850964" />
+      <entry key="M10" value="6.565516368371475" />
+      <entry key="M15" value="8.927240223440048" />
+      <entry key="M30" value="12.94895792139227" />
+      <entry key="H1" value="16.49205838526386" />
+      <entry key="H2" value="24.10563925083986" />
+      <entry key="H4" value="41.24443972418547" />
+      <entry key="D1" value="109.41564401561138" />
+      <entry key="W1" value="149.0472683348153" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="4.227020055874467E-5" />
-      <entry key="MS500" value="0.14017923417311728" />
-      <entry key="S2" value="0.8911450995660432" />
-      <entry key="S5" value="1.4243234936181848" />
-      <entry key="S10" value="1.6839371496009734" />
-      <entry key="S30" value="2.0527720450690508" />
-      <entry key="S60" value="3.5112853770664336" />
-      <entry key="M2" value="8.5698970511389" />
-      <entry key="M5" value="21.316049914572268" />
-      <entry key="M10" value="36.31823122425255" />
-      <entry key="M15" value="47.52687301879042" />
-      <entry key="M30" value="67.55039097632252" />
-      <entry key="H1" value="83.75986784889825" />
-      <entry key="H2" value="94.30608821731447" />
-      <entry key="H4" value="100.35507680355549" />
-      <entry key="D1" value="105.93289377984655" />
-      <entry key="W1" value="112.32162895028762" />
+      <entry key="MS100" value="0.9470150913118013" />
+      <entry key="MS500" value="1.6328104014606362" />
+      <entry key="S2" value="4.206855231719928" />
+      <entry key="S5" value="5.6422449498317375" />
+      <entry key="S10" value="6.289068774753289" />
+      <entry key="S30" value="7.449186465064012" />
+      <entry key="S60" value="8.858689773674314" />
+      <entry key="M2" value="10.523640353779337" />
+      <entry key="M5" value="14.025215161405887" />
+      <entry key="M10" value="19.34686967262677" />
+      <entry key="M15" value="23.537876451641267" />
+      <entry key="M30" value="30.920427581111074" />
+      <entry key="H1" value="37.95687785484274" />
+      <entry key="H2" value="58.091958819171836" />
+      <entry key="H4" value="116.58844870318067" />
+      <entry key="D1" value="370.5116345283336" />
+      <entry key="W1" value="511.8584445971604" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3J62UwhWVg32XHrKvHAK093gBfe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -99,24 +103,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.loginSucess.executor": "Debug",
     "JUnit.loginSucess.login.executor": "Run",
+    "JUnit.loginSucess.negativeLogin.executor": "Run",
+    "JUnit.loginSucess.positiveLogin.executor": "Run",
+    "JUnit.loginTest.positiveLogin.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "180926",
+    "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/dinhquynh/IdeaProjects/HMS/src/main/java/org/example/Main.java"
+    "onboarding.tips.debug.path": "/Users/dinhquynh/IdeaProjects/HMS/src/main/java/org/example/Main.java",
+    "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="loginSucess.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.loginTest.positiveLogin">
+    <configuration name="loginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HMS" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +138,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.loginSucess" />
+      <option name="MAIN_CLASS_NAME" value="login.loginTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginTest.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.loginTest" />
       <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginTest.negativeLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.loginTest" />
+      <option name="METHOD_NAME" value="negativeLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginTest.positiveLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="login" />
+      <option name="MAIN_CLASS_NAME" value="login.loginTest" />
+      <option name="METHOD_NAME" value="positiveLogin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,7 +194,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.loginSucess.login" />
+        <item itemvalue="JUnit.loginTest.positiveLogin" />
+        <item itemvalue="JUnit.loginTest.negativeLogin" />
+        <item itemvalue="JUnit.loginTest" />
+        <item itemvalue="JUnit.loginTest.login" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +229,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/login/loginTest.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/login/loginPage.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/login/loginTest.java</url>
+          <line>30</line>
+          <placement>INTER_LINE</placement>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/login/loginTest.java</url>
+          <line>20</line>
+          <properties class="login.loginTest" method="positiveLogin">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
